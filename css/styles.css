@@ -1,0 +1,376 @@
+* {
+  font-family: 'Kanit', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #FEFAE0;
+  }
+  
+  header {
+    background-color: #5F6F52;
+    color: #fff;
+    padding: 15px 0;
+    height: 70px;
+    /* border-end-start-radius: 15px;
+    border-end-end-radius: 15px; */
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(0, 0, 0);
+    
+  }
+
+  .menuHambur {
+    display: none;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    position: relative;
+    top: -102px;
+  }
+  
+  .logo-png {
+    position: relative;
+    top: 235px;
+    left: 20px;
+    width: 300px;
+    height: auto;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 30px;
+    position: relative;
+    top: -15px;
+    right: 90px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    
+    text-transform: uppercase;
+    position: relative;
+    right: -190px;
+    z-index: 99;
+  }
+
+  nav a:hover {
+    color: burlywood;
+  }
+
+
+  .productos {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: -250px;
+  }
+  
+  .producto {
+    max-width: 150px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    
+  }
+  
+  .producto:hover {
+    
+    background-color: rgb(255, 245, 192);
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #603085;
+  }
+  
+  .producto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .productos {
+    margin-bottom: 50px;
+  }
+  
+.productos h3 {
+    
+    color: #494949;
+}
+
+h2 {
+    text-align: center;
+    
+    color: #5F6F52;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+    background-color: #5F6F52;
+    color: #fff;
+    padding-bottom: 10px;
+    height: 70px;
+    border-start-start-radius: 15px;
+    border-start-end-radius: 15px;
+}
+
+.redes .parraph-one {
+    
+    font-size: 15px;
+    margin-left: 35px;
+}
+
+
+.redes i {
+    font-size: 20px;
+    margin-left: 15px;
+    color: bisque;
+    position: relative;
+    left: 50px;
+}
+
+.redes i:hover {
+  cursor: pointer;
+  color: coral;
+}
+
+.redes .parraph-two {
+    
+    font-size: 15px;
+    margin-left: 35px;
+    color: #ffffff;
+    position: relative;
+    top: -60px;
+    left: 950px;
+    z-index: 80;
+}
+
+
+.answer-navbar i {
+  font-size: 25px;
+  color: #FEFAE0;
+  position: relative;
+  left: -890px;
+  top: 16px;
+}
+
+.answer-navbar h4 {
+  font-size: 15px;
+  position: relative;
+  left: -850px;
+  bottom: 30px;
+}
+
+
+
+.buscador_index {
+    position: absolute;
+    padding: 5px;
+    left: 5%;
+    margin-top: 80px;
+    top: 30px;
+
+}
+
+
+.buscador_index input:hover {
+  background-color: rgb(255, 245, 192);
+  transition: .5s;
+}
+
+.buscador_index input {
+    background-color: #494949;
+    width: 0px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    transition: all 0.6s ease;
+}
+
+.buscador_index input::placeholder {
+  color: #B99470;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #B99470;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #FEFAE0;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buscador_index:hover input{
+    width: 240px;
+}
+
+.buscador_index input:focus{
+    width: 240px;
+}
+
+
+
+
+.contact_wp_index img {
+    width: 150px;
+    position: fixed;
+    top: 300px;
+    left: 87%;
+    opacity: .7;
+    
+    z-index: 100;
+}
+
+.contact_wp_index img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .4s;
+    opacity: 1;
+}
+
+
+.mate_wallpaper {
+  margin-top: -60px;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.61)), url(img/matewallpaper.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.mate_wallpaper .welcome-to {
+  font-size: 55px;
+  
+  color: beige;
+  position: relative;
+  left: 37%;
+  top: 20%;
+}
+
+.mate_wallpaper p {
+  width: 160px;
+  height: auto;
+  text-align: center;
+  font-size: 18px;
+  
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 43%;
+  top: 15%;
+}
+
+@media (max-width: 768px) {
+  .navbar nav {
+    display: none;
+  }
+
+  .navbar .menuHambur {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+  }
+
+  .navbar .menuHambur img {
+    width: 80px;
+    position: absolute;
+    bottom: 130px;
+    transition: .5s ease-in-out;
+  }
+
+  .navbar .menuHambur img:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+  }
+
+  .mate_wallpaper p {
+    display: none;
+  }
+
+  .mate_wallpaper .welcome-to {
+    left: 300px;
+  }
+
+  .productos {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .productos .producto img{
+  width: 100px;
+  height: auto;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 390px) {
+  .navbar .menuHambur {
+    display: none;
+  }
+
+  .navbar .buscador {
+    position: relative;
+    right: 135px;
+    bottom: 90px;
+    transition: .3s;
+  }
+
+  .navbar .buscador:hover {
+    transform: translateX(-130px);
+  }
+
+  .navbar .logo-png {
+    position: relative;
+    left: 50px;
+  }
+
+  .productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .productos .productos {
+    width: 100%;
+    height: auto;
+  }
+
+  .contact_wp_index img {
+    width: 100px;
+    position: fixed;
+    left: 0;
+  }
+
+  footer {
+    margin-top: 250px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+  }
+}
