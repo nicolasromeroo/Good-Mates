@@ -1,2 +1,1 @@
-Pagina con futuro e-commerce de mates y accesorios de los mismos.
-HTML y CSS
+Sitio WEB para tienda de mates "Good Mates" con e-commerce de mates y accesorios de los mismos.
