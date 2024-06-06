@@ -22,10 +22,11 @@ body {
     
   } */
 
-  .menuHambur {
-    display: none;
-  }
-  /*
+.menuHambur {
+  display: none;
+}
+
+/*
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -122,7 +123,7 @@ h2 {
 
 header {
   background-color: #5F6F52;
-  
+
 }
 
 .logo {
@@ -149,7 +150,7 @@ header {
 }
 
 .nav li a:hover {
-  color:#a6ff00;
+  color: #a6ff00;
   font-weight: bold;
   border-radius: 50px;
   box-shadow: 1px 1px 10px #a6ff00;
@@ -165,7 +166,7 @@ header {
 .answer-navbar {
   display: flex;
   flex-direction: row-reverse;
- 
+
 }
 
 .answer-navbar i {
@@ -202,29 +203,29 @@ header {
 }
 
 .buscador_index input:hover {
-box-shadow: 1px 1px 7px 1px #a6ff0075;
+  box-shadow: 1px 1px 7px 1px #a6ff0075;
 }
 
-.buscador_index:hover > .btn {
+.buscador_index:hover>.btn {
   transform: translateX(-30px);
 }
 
-.buscador_index:hover > input {
+.buscador_index:hover>input {
   transform: translateX(10px);
 }
 
 .buscador_index input {
-    background-color: #856a50;
-    width: 0px;
-    height: 40px;
-    padding: 0 20px;
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    outline: none;
-    box-shadow: 1px 1px 10px 12px #a6ff005e;
-    border: 1px solid silver;
-    border-radius: 30px;
-    transition: all 0.6s ease;
+  background-color: #856a50;
+  width: 0px;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  outline: none;
+  box-shadow: 1px 1px 10px 12px #a6ff005e;
+  border: 1px solid silver;
+  border-radius: 30px;
+  transition: all 0.6s ease;
 }
 
 .buscador_index input::placeholder {
@@ -257,12 +258,12 @@ box-shadow: 1px 1px 7px 1px #a6ff0075;
   text-shadow: 3px 1px 5px #a6ff00;
 }
 
-.buscador_index:hover input{
-    width: 240px;
+.buscador_index:hover input {
+  width: 240px;
 }
 
-.buscador_index input:focus{
-    width: 240px;
+.buscador_index input:focus {
+  width: 240px;
 }
 
 .mate_wallpaper {
@@ -271,7 +272,7 @@ box-shadow: 1px 1px 7px 1px #a6ff0075;
   gap: 50px;
   justify-content: center;
   align-items: center;
-  
+
   color: #ffffff;
   width: 100%;
   height: 500px;
@@ -305,7 +306,7 @@ main {
 }
 
 .text-center {
-  background-color:#B99470;
+  background-color: #B99470;
 }
 
 .card {
@@ -341,7 +342,7 @@ main {
   width: 250px;
   height: 500px;
   object-fit: cover;
-} 
+}
 
 .carousel {
   background-color: #2d3527;
@@ -414,10 +415,10 @@ main {
 }
 
 .contact_wp_index img:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: .4s;
-    opacity: 1;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: .4s;
+  opacity: 1;
 }
 
 /*
@@ -452,7 +453,7 @@ main {
 } */
 
 footer {
-  
+
   width: 100%;
   height: 200px;
   background-color: #000000;
@@ -517,6 +518,71 @@ footer {
 } */
 
 
+/* CJS */
+
+
+#contenedorProductos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #423528;
+  color: #fff;
+}
+
+
+/* .tarjetaProductoPocoStock {
+  background-color: lightcoral;
+  border: 1px solid black;
+  margin: 2px;
+} */
+
+#contenedorProductos img {
+  height: 200px;
+} 
+
+.tarjetaDelProducto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  margin: 2px;
+}
+
+.tarjetaDelProducto h3 {
+  background-color: blanchedalmond;
+  color: #252525;
+  font-weight: bold;
+}
+
+.buttonCarrito {
+  color: black;
+  font-weight: bold;
+  padding: 8px;
+}
+
+#contenedorCarrito {
+  background-color: #d3f595;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  border: 2px solid black;
+  width: 100%;
+  min-height: 100px;
+
+}
+
+.tarjetaProductoCarrito {
+  display: flex;
+  justify-content:  space-between;
+}
+
+
+
+
+
+
+
+
 @media (max-width: 768px) {
   .nav {
     width: 100%;
@@ -526,7 +592,7 @@ footer {
     flex-wrap: nowrap;
     display: none;
   }
- 
+
   /*
   .navbar .menuHambur {
     display: flex;
@@ -564,22 +630,27 @@ footer {
   height: auto;
   }
  */
- .logo img {
-  width: 100px;
- }
+  .logo img {
+    width: 100px;
+  }
+
   footer {
     width: 100%;
   }
+
   .buscador {
     bottom: 25px;
   }
+
   .answer-navbar {
     display: none;
   }
+
   main {
     display: flex;
     flex-direction: column;
   }
+
   .contact_wp_index {
     bottom: 100px;
   }
@@ -587,7 +658,7 @@ footer {
 
 
 @media (max-width: 390px) {
-  
+
   .buscador {
     display: none;
   }
@@ -603,9 +674,11 @@ footer {
     padding-top: 30px;
     text-align: center;
   }
+
   .contact_wp_index {
     bottom: 100px;
   }
+
   /*
   .navbar .menuHambur {
     display: none;
@@ -650,4 +723,4 @@ footer {
     position: sticky;
     bottom: 0;
   }*/
-} 
+}
