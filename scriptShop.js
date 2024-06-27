@@ -1,8 +1,8 @@
 const productos = [
-    { id: 5, nombre: "camionero", precio: 32000, categoria: "mates", rutaImg: "camionero.webp", stock: 4 },
-    { id: 6, nombre: "criollo", precio: 25000, categoria: "mates", rutaImg: "criollo.webp", stock: 5 },
-    { id: 7, nombre: "torpedo", precio: 30000, categoria: "mates", rutaImg: "torpedo.webp", stock: 3 },
-    { id: 8, nombre: "imperial", precio: 40000, categoria: "mates", rutaImg: "imperial.webp", stock: 4 },
+    { id: 5, nombre: "camionero", precio: 32000, categoria: "mates", rutaImg: "camionero.jpg", stock: 4 },
+    { id: 6, nombre: "criollo", precio: 25000, categoria: "mates", rutaImg: "criollo.jpg", stock: 5 },
+    { id: 7, nombre: "torpedo", precio: 30000, categoria: "mates", rutaImg: "torpedo.jpg", stock: 3 },
+    { id: 8, nombre: "imperial", precio: 40000, categoria: "mates", rutaImg: "imperial.", stock: 4 },
     { id: 9, nombre: "termo stanley 1l", precio: 80500, categoria: "termos", rutaImg: "stanley.jpg", stock: 2 },
     { id: 10, nombre: "termo media manija 1l", precio: 62000, categoria: "termos", rutaImg: "mediaManija.jpg", stock: 4 },
     { id: 11, nombre: "canasta cuero 1", precio: 22000, categoria: "equipos", rutaImg: "canasta-black.png", stock: 3 },
