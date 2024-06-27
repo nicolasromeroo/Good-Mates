@@ -1,9 +1,9 @@
 
 const mates = [
-    { id: 1, nombre: "camionero", precio: 32000, categoria: "mates", rutaImg: "camionero.webp" },
-    { id: 2, nombre: "criollo", precio: 25000, categoria: "mates", rutaImg: "criollo.webp" },
-    { id: 3, nombre: "torpedo", precio: 30000, categoria: "mates", rutaImg: "torpedo.webp" },
-    { id: 4, nombre: "imperial", precio: 40000, categoria: "mates", rutaImg: "imperial.webp" },
+    { id: 1, nombre: "camionero", precio: 32000, categoria: "mates", rutaImg: "camionero.jpg" },
+    { id: 2, nombre: "criollo", precio: 25000, categoria: "mates", rutaImg: "criollo.jpg" },
+    { id: 3, nombre: "torpedo", precio: 30000, categoria: "mates", rutaImg: "torpedo.jpg" },
+    { id: 4, nombre: "imperial", precio: 40000, categoria: "mates", rutaImg: "imperial.jpg" },
 ]
 
 window.addEventListener('scroll', function () {
