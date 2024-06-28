@@ -51,7 +51,7 @@ function renderizarMates(mates) {
 
         cartaMate.className = "card";
         cartaMate.innerHTML = `
-            <img class="card-img-top" class="imgMate" src=../img/${mate.rutaImg}>
+            <img class="card-img-top" class="imgMate" src=img/${mate.rutaImg}>
             <div class="card-body">
                 <h5 class="card-title nombreMate">${mate.nombre}</h5>
                 <p class="card-text priceText">Mismo precio en 12 cuotas sin interes. $ ${mate.precio}</p>
